@@ -10,6 +10,10 @@ First, run the development server:
 npm run dev
 ```
 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
 ## Routes
 
 ### Position size calculator
@@ -24,11 +28,4 @@ The calculator is based on the popular lot size formula:
 lots = riskAmount / (stopLossPips * pipValuePerLot);
 ```
 
-```url
-# Route
-/trading-tools/position-size-calculator
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+[Position size calculator](https://util-belt.vercel.app/trading-tools/position-size-calculator)
